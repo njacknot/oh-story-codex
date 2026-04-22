@@ -212,6 +212,7 @@ description: |
 | 写完了想拆解自己的作品 | 「拆自己的作品也很有价值。用 `/story-short-analyze`。」 |
 | 不确定写什么题材 | 「看看市场什么火。用 `/story-short-scan`。」 |
 | 短篇写着写着发现设定太大了 | 「这个设定做长篇更合适。用 `/story-long-write`。」 |
+| 写完了想润色去 AI 味 | 「写完了检查一下 AI 味。用 `/story-deslop`。」 |
 
 ---
 

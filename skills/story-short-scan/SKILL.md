@@ -65,7 +65,14 @@ description: |
 
 **内置知识操作指引：**
 - 加载 `知识库/Skill知识包/short-scan_短篇市场数据.md`
+- 加载 `references/short-story-market-data.md`（跨平台真实数据）
 - 明确告知用户：「以下分析基于历史趋势数据，建议结合实时榜单验证。」
+
+**浏览器操控（高级模式）：**
+- 如果可用 agent-browser CLI，通过 CDP 连接 Chrome 获取平台数据
+- 示例：`agent-browser --cdp 9222 open "https://www.zhihu.com/column/c_123456"`
+- 可复用用户已登录的 Chrome session，获取完整榜单数据
+- 适用于需要登录才能看到的数据（知乎个人中心、番茄书架等）
 
 ---
 
@@ -189,7 +196,8 @@ description: |
 | 文件 | 何时加载 |
 |------|----------|
 | [references/short-story-market-data.md](references/short-story-market-data.md) | 需要跨平台真实数据对比时 |
-| [knowledge-base short-scan](../../知识库/Skill知识包/short-scan_短篇市场数据.md) | 深度市场分析时 |
+
+> 📚 深度参考：知识库/Skill知识包/short-scan_短篇市场数据.md
 
 ---
 

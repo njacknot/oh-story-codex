@@ -205,6 +205,7 @@ description: |
 | 写了几章想对标检查 | 「写了一部分了，拆一本同类型爆款对照一下。用 `/story-long-analyze`。」 |
 | 方向不确定想看市场 | 「写之前先扫个榜确认方向。用 `/story-long-scan`。」 |
 | 觉得长篇压力太大 | 「试试短篇入门。用 `/story-short-write`。」 |
+| 写完了想润色去 AI 味 | 「写完了检查一下 AI 味。用 `/story-deslop`。」 |
 
 ---
 
@@ -222,6 +223,8 @@ description: |
 | [references/consistency-tracking.md](references/consistency-tracking.md) | 管理长篇连续性、防止遗忘时 |
 | [references/style-modules.md](references/style-modules.md) | 针对特定题材风格写作时 |
 | [references/dialogue-mastery.md](references/dialogue-mastery.md) | 写对话、设计角色语气时 |
+| [references/camera-writing.md](references/camera-writing.md) | 学习镜头式写作手法时 |
+| [references/micro-innovation.md](references/micro-innovation.md) | 题材微创新、差异化设计时 |
 
 > 📚 深度参考：知识库/Skill知识包/long-write_长篇写作框架.md
 

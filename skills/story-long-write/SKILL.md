@@ -208,6 +208,17 @@ description: |
 
 ---
 
+## 参考资料
+
+按需加载以下文件：
+
+| 文件 | 何时加载 |
+|------|----------|
+| [references/eight-node-structure.md](references/eight-node-structure.md) | 设计大纲、搭建卷级结构时 |
+| [references/character-design.md](references/character-design.md) | 设定主角、配角、反派层级时 |
+| [references/anti-ai-writing.md](references/anti-ai-writing.md) | 精修正文、去除 AI 痕迹时 |
+| [references/outline-arrangement.md](references/outline-arrangement.md) | 排布大纲、设计剧情线时 |
+
 > 📚 深度参考：知识库/Skill知识包/long-write_长篇写作框架.md
 
 ---

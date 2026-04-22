@@ -9,14 +9,14 @@
 #### Claude Code
 
 ```bash
-claude plugin marketplace add worldwonderer/oh-story
+claude plugin marketplace add worldwonderer/oh-story-claudecode
 claude plugin install story@oh-story-skills
 ```
 
 #### 通用安装方式
 
 ```bash
-npx skills add worldwonderer/oh-story
+npx skills add worldwonderer/oh-story-claudecode
 ```
 
 ## 如何更新
@@ -34,7 +34,7 @@ claude plugin update story@oh-story-skills
 重新运行一次同样的命令即可：
 
 ```bash
-npx skills add worldwonderer/oh-story
+npx skills add worldwonderer/oh-story-claudecode
 ```
 
 ---

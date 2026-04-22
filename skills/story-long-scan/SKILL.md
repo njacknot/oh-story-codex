@@ -162,7 +162,14 @@ description: |
 | 用户想直接开始写 | 「扫完榜直接开书也行。用 `/story-long-write`。」 |
 | 用户发现短篇更适合自己 | 「长篇可能不是你的菜，看看短篇市场。用 `/story-short-scan`。」 |
 
----
+## 参考资料
+
+按需加载以下文件：
+
+| 文件 | 何时加载 |
+|------|----------|
+| [references/reader-profiling.md](references/reader-profiling.md) | 需要分析目标读者画像时 |
+| [references/genre-trends.md](references/genre-trends.md) | 查看当前题材趋势和切入建议时 |
 
 > 📚 深度参考：知识库/Skill知识包/long-scan_网文市场数据.md
 

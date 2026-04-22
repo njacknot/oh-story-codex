@@ -215,6 +215,17 @@ description: |
 
 ---
 
+## 参考资料
+
+按需加载以下文件：
+
+| 文件 | 何时加载 |
+|------|----------|
+| [references/zhihu-format.md](references/zhihu-format.md) | 写知乎盐言故事时，加载格式规范 |
+| [references/emotional-arc-templates.md](references/emotional-arc-templates.md) | 设计情绪曲线时，选择合适的弧形模板 |
+| [references/reversal-toolkit.md](references/reversal-toolkit.md) | 设计反转时，选择反转类型和时机 |
+| [references/quality-checklist.md](references/quality-checklist.md) | 精修检查时，五维质量评分 + 虐爽节奏 |
+
 > 📚 深度参考：知识库/Skill知识包/short-write_短篇写作框架.md
 
 ---

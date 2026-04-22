@@ -213,6 +213,17 @@ description: |
 
 ---
 
+## 参考资料
+
+按需加载以下文件：
+
+| 文件 | 何时加载 |
+|------|----------|
+| [references/genre-frameworks.md](references/genre-frameworks.md) | 拆解特定题材短篇时 |
+| [references/zhihu-style.md](references/zhihu-style.md) | 分析知乎盐言故事时 |
+| [references/hook-types.md](references/hook-types.md) | 分析钩子设计和章尾悬念时 |
+| [references/deconstruction-examples.md](references/deconstruction-examples.md) | 学习拆文方法时（3 个完整案例） |
+
 > 📚 深度参考：知识库/Skill知识包/short-analyze_短篇拆文方法论.md
 
 ---

@@ -151,3 +151,7 @@ npx skills add worldwonderer/oh-story-claudecode -y
 ## Community
 
 [LINUX DO - The New Ideal Community](https://linux.do)
+
+## 致谢
+
+- [FanqieRankTracker](https://github.com/wen1701/FanqieRankTracker) — 番茄小说字体反爬解码方案参考

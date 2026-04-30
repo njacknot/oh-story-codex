@@ -50,13 +50,13 @@ flowchart LR
 
 ## 安装
 
-把仓库地址喂给 Claude Code 或 OpenClaw，说「安装这个 skill」就行：
+**方式一** 直接告诉 Claude Code / OpenClaw：
 
 ```
-https://github.com/worldwonderer/oh-story-claudecode
+安装这个 skill https://github.com/worldwonderer/oh-story-claudecode
 ```
 
-或者用命令行：
+**方式二** 命令行：
 
 ```bash
 npx skills add worldwonderer/oh-story-claudecode -y
@@ -101,15 +101,6 @@ npx skills add worldwonderer/oh-story-claudecode -y
 └── 笔记.md
 ```
 
-**短篇：**
-
-```
-{标题}/
-├── 设定.md
-├── 正文.md
-└── 笔记.md
-```
-
 ## 知识体系
 
 各 skill 自带 `references/` 知识库，按需加载，不占上下文。
@@ -117,20 +108,23 @@ npx skills add worldwonderer/oh-story-claudecode -y
 | 主题 | 内容 | 所在 skill |
 |:-----|:-----|:-----------|
 | 大纲排布 | 五步大纲法 · 故事结构分级 · 节点设计法 · 升级感设计 | long-write |
-| 人物设计 | 角色设定 · 人物提取 · 关系映射 · 动机链 · 群像 | long-write |
-| 钩子技法 | 章尾钩子 13 式 · 章首钩子 7 式 · 段落级钩子 · 悬念编排 | long-write |
-| 情绪设计 | 6 种弧形模板 · 期待感管理 · 题材赛道策略 | long-write |
-| 题材框架 | 长篇八节点 · 短篇压缩三幕 · 8 大题材开头模板 | long-write / short-write |
-| 对话技法 | 节奏 · 潜台词 · 信息控制 · 对话模式数据库 | long-write |
-| 反转工具箱 | 类型 · 时机 · 误导底层路径 | long-write |
-| 去AI味 | 预防 · 三遍去AI法 · 改写范例库 · 禁用词表 | deslop |
-| 质量检查 | 通用 · 长篇专项 · 短篇专项 · 毒点排查 | long-write |
-| 写作公式 | 21 大题材写作公式 · 三翻四震 · 感情线四阶段 | short-write |
+| 开头设计 | 开篇模式 · 前 500 字设计 · 黄金三章开头策略 | long-write / short-write |
+| 人物设计 | 角色设定 · 人物提取 · 关系映射 · 动机链 · 群像 | long-write / short-write / short-analyze |
+| 钩子技法 | 章尾钩子 13 式 · 章首钩子 7 式 · 段落级钩子 · 悬念编排 | long-write / short-write / short-analyze |
+| 情绪设计 | 6 种弧形模板 · 期待感管理 · 题材赛道策略 | long-write / short-write |
+| 题材框架 | 长篇八节点 · 短篇压缩三幕 · 8 大题材开头模板 | long-write / short-write / short-analyze |
+| 对话技法 | 节奏 · 潜台词 · 信息控制 · 对话模式数据库 | long-write / short-write |
+| 反转工具箱 | 类型 · 时机 · 误导底层路径 | long-write / short-write |
+| 风格模块 | 对话 · 打斗 · 智斗 · 镜头式写作 · 装逼打脸 · 白描 | long-write |
+| 高级技法 | 小纲四步法 · 高潮逆推 · 双线结构 · AB 交织法 | long-write |
+| 去AI味 | 预防 · 三遍去AI法 · 改写范例库 · 禁用词表 | deslop / long-write / short-write |
+| 质量检查 | 通用 · 长篇专项 · 短篇专项 · 毒点排查 | long-write / short-write / short-analyze |
+| 写作公式 | 21 大题材写作公式 · 三翻四震 · 感情线四阶段 | short-write / short-analyze |
 | 女频写作 | 女读者偏好 · 情感描写 · 感情线模式 · 对标拆书 | short-write |
 | 拆文方法 | 黄金三章 · 情绪曲线 · 结构拆解 · 知乎风格分析 | long-analyze / short-analyze |
-| 市场数据 | 题材趋势 · 平台特性 · 投稿审核 · 推荐安排 | long-scan / short-scan |
-| 高级技法 | 小纲四步法 · 高潮逆推 · 双线结构 · AB 交织法 | long-write |
-| 风格模块 | 对话 · 打斗 · 智斗 · 镜头式写作 · 装逼打脸 · 白描 | long-write |
+| 拆文实例 | 完整案例拆解 · 模板化输出 | short-analyze |
+| 读者画像 | 9 维画像 · 目标读者分析 | long-scan |
+| 市场数据 | 题材趋势 · 平台特性 · 采集格式 · 投稿指南 | long-scan / short-scan |
 
 ## 适用平台
 
@@ -144,6 +138,12 @@ npx skills add worldwonderer/oh-story-claudecode -y
 
 [LINUX DO - The New Ideal Community](https://linux.do)
 
-## License
+## Star History
 
-MIT
+<a href="https://www.star-history.com/?repos=worldwonderer%2Foh-story-claudecode&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=worldwonderer/oh-story-claudecode&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=worldwonderer/oh-story-claudecode&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=worldwonderer/oh-story-claudecode&type=date&legend=top-left" />
+ </picture>
+</a>

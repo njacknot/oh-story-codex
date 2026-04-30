@@ -101,6 +101,10 @@ npx skills add worldwonderer/oh-story-claudecode -y
 ├── 正文/
 │   ├── 第001章_章名.md
 │   └── ...
+├── 对标/
+│   └── {对标书名}/
+│       ├── 原文/            # 对标书原文章节
+│       └── 拆文报告.md      # analyze skill 输出的拆文报告
 ├── 追踪/                # 连续性管理
 │   ├── 伏笔.md          # 伏笔埋设/回收状态表
 │   └── 时间线.md        # 故事内时间线

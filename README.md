@@ -80,12 +80,7 @@ npx skills add worldwonderer/oh-story-claudecode -y
 
 自然语言同样触发：「帮我开书」→ `story-long-write`，「这篇太 AI 了」→ `story-deslop`。
 
-<details>
-<summary>封面生成示例</summary>
-
 ![封面示例 — 剑道独尊](demo/封面-剑道独尊.png)
-
-</details>
 
 ## 项目文件结构
 

@@ -121,6 +121,8 @@ npx skills add worldwonderer/oh-story-claudecode -y
 └── 笔记.md
 ```
 
+**拆文库：** 拆文 skill 默认输出到项目根目录 `拆文库/{书名}/`，写作 skill 可直接引用其中的 `拆文报告.md` 作为对标参考。
+
 ## 知识体系
 
 各 skill 自带 `references/` 知识库，按需加载，不占上下文。

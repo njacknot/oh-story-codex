@@ -44,8 +44,8 @@ metadata:
 按 output-templates.md 中的模板输出：
 
 - **Phase 2**：黄金三章逐章拆解。按 [output-templates.md「快速 Phase 2 第一章」](references/output-templates.md) 模板输出第一章，第二三章按「快速 Phase 2 第二三章」说明追加关注点。
-- **Phase 3**：整体结构拆解。按 [output-templates.md「快速 Phase 3 整体结构」](references/output-templates.md) 输出故事线分析、人物架构、节奏地图。
-- **Phase 4**：输出拆文报告。按 [output-templates.md「快速 Phase 4 拆文报告」](references/output-templates.md) 模板输出完整报告。
+- **Phase 3**：整体结构拆解。按 [output-templates.md「快速 Phase 3 整体结构」](references/output-templates.md) 输出故事线分析、人物架构、节奏地图。反派设计增加类型路由：人形反派用标准模板（层级/逼格/动机链）；非人形反派（灵气复苏/末世/国运等抽象对抗型）用：核心对抗面{描述} | 紧迫感来源{描述} | 升级机制{描述} | 叙事替代{用什么替代传统打脸}。
+- **Phase 4**：输出拆文报告。按 [output-templates.md「快速 Phase 4 拆文报告」](references/output-templates.md) 模板输出完整报告。写法技巧类型扩展：一笔两用、延迟揭示、视角欺骗、对比锚点、行为循环、身体反应替代心理描写、**跨章回扣**（物品/意象在不同章节承担不同功能）。
 
 **Phase 4+**（可选）：用户想保存结果时，提示「想系统拆解整本书？用深度模式。」
 

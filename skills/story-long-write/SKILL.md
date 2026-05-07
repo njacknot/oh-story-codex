@@ -3,7 +3,7 @@ name: story-long-write
 version: 1.0.0
 description: |
   长篇网文写作。从大纲到正文，辅助长篇网络小说的创作，包括世界观、人物、情节线管理。
-  触发方式：/story-long-write、/写长篇、/story、/网文、「帮我开书」「写大纲」
+  触发方式：/story-long-write、/写长篇、「帮我开书」「写大纲」
 metadata:
   openclaw:
     source: https://github.com/worldwonderer/oh-story-claudecode
@@ -148,7 +148,6 @@ metadata:
 - **大纲/大纲.md**：全书卷级鸟瞰（卷名+字数+章数+核心事件+状态变化，一段式汇总）
 - **大纲/卷纲_第X卷.md**：每卷的爽点节奏+情绪弧线+人物弧线+伏笔+反转（参考 outline-arrangement.md「大纲三层结构法」 + emotional-arc-design.md「六种弧线速查」 + reversal-toolkit.md「五种反转类型」）
 - **追踪/伏笔.md** + **追踪/时间线.md**：伏笔状态表+故事时间线（参考 advanced-plot-techniques.md「连续性追踪」）
-- **笔记.md**：灵感备忘文件（初始为空，写作过程中随时追加）
 
 前 3 章细纲额外加载 [references/opening-design.md](references/opening-design.md)（黄金三章法则+六大标准）。
 
@@ -191,7 +190,6 @@ metadata:
 ├── 追踪/
 │   ├── 伏笔.md                # 伏笔埋设/回收状态表
 │   └── 时间线.md              # 故事内时间线
-└── 笔记.md                    # 灵感、备忘
 ```
 
 **Artifact 映射表**（创建模板详见 [references/artifact-protocols.md](references/artifact-protocols.md)）：
